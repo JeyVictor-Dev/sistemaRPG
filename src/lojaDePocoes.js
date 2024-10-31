@@ -2,8 +2,8 @@ let lojaDePocoesEstaAberta = true;
 let pocoes = ["Poção de velocidade", "Poção de força"];
 let acoesDaPocao = ["velocidade", "força"];
 
-switch (lojaDePocoesEstaAberta) {
-  case true:
+if (lojaDePocoesEstaAberta === true) {
+
     console.log("Você chegou a Loja de Poções!");
     console.log("Qual Poção gostaria de comprar?");
 
@@ -17,11 +17,11 @@ switch (lojaDePocoesEstaAberta) {
         "Você acabou de adquirir +2 Poções de " + acoesDaPocao[indice]
       );
     }
-    break;
     
-  default:
+  else {
     console.log("Desculpe, a Loja de Poções está fechada");
-}
+  }  
+} 
 
 // Aumenta a velocidade ou força dependendo da poção escolhida
 let escolha = prompt("Digite o nome da poção que você deseja:");
