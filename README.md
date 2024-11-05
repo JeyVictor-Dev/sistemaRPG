@@ -4,7 +4,7 @@ Este código JavaScript implementa um sistema simplificado para uma loja de poç
 
 ## 🧌O sistema permite que o jogador:
 
-**Compre poções:** O jogador pode escolher entre as poções disponíveis e receber um bônus de acordo com a poção escolhida.
+**Compre poções:** O jogador pode escolher entre as poções disponíveis e abrir o inventário e selecionar a poção desejada para receber um bônus de acordo com a poção escolhida.
 
 **Verificar o nível:** O sistema calcula o nível do herói com base nos pontos de experiência acumulados.
 
@@ -17,6 +17,7 @@ O código está dividido em duas partes principais:
 
 **Lógica:**
 Verifica se a loja está aberta.
+Permite oa jogador escolher abrir o inventário ou comprar uma poção.
 Permite ao jogador escolher uma poção.
 Verifica se a poção escolhida está disponível e aplica o efeito correspondente.
 
@@ -27,7 +28,7 @@ Verifica se a poção escolhida está disponível e aplica o efeito corresponden
 Verifica a faixa de pontos de experiência e atribui o nível correspondente ao herói.
 
 ## Funcionalidades🎮
-**Compra de Poções:** O jogador pode escolher entre as poções disponíveis e receber um bônus de acordo com a poção escolhida.
+**Compra de Poções:** O jogador pode escolher entre as poções disponíveis e abrir o inventário para escolher uma poção e receber um bônus de acordo com a poção escolhida.
 
 **Cálculo de Níveis:** O sistema calcula o nível do herói com base nos pontos de experiência acumulados.
 
